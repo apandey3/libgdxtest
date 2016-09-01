@@ -26,6 +26,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 		batch.begin();
 		font.draw(batch, "Hello World", 200, 200);
+		font.draw(batch, "Jeff was here", 400, 400);
 		batch.end();
 	}
 	
